@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Editar Recado</title>
+    <link rel="stylesheet" href="/static/estilo.css">
+</head>
+<body>
+
+    <img src="/static/topo.png" class="img-topo">
+
+    <div class="container">
+        <h1>Editar Recado</h1>
+
+        <form method="POST" action="/editar/{{ recado.id }}">
+            <input type="text" name="novo_titulo" value="{{ recado.titulo }}">
+            <textarea name="nova_msg">{{ recado.mensagem }}</textarea>
+            <button type="submit">Salvar alterações</button>
+        </form>
+
+        <a href="/"><button>Cancelar</button></a>
+    </div>
+
+</body>
+</html>

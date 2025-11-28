@@ -1,1 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Mural de Recados</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
 
+    <img src="/static/img/foto mural.png" class="img-topo">
+
+    <div class="container">
+
+        <h1>Mural de Recados</h1>
+
+        <form method="GET" action="/">
+            <input type="text" name="busca" placeholder="Buscar..." value="{{ busca }}">
+            <button type="submit">Buscar</button>
+        </form>
+
+        <a href="/adicionar"><button>Adicionar novo recado</button></a>
+
+        <h2>Recados cadastrados:</h2>
+
+        {% if recados %}
+            {% for r in recados %}
+                <div class="recado">
+                    <p><b>{{ r.titulo }}</b></p>
+                    <p>{{ r.mensagem }}</p>
+
+                    <a href="/editar/{{ r.id }}"><button>Editar</button></a>
+                    <a href="/excluir/{{ r.id }}"><button>Excluir</button></a>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>Nenhum recado cadastrado.</p>
+        {% endif %}
+
+    </div>
+
+</body>
+</html>
