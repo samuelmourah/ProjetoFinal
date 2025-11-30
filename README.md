@@ -37,10 +37,13 @@ Remove um recado específico da lista, atualizando imediatamente as informaçõe
 
 Requisitos
 	•	Python 3 instalado
+	
 Passo a passo
+
 	1.	Abra o terminal na pasta principal.
 	2.	Execute:
 	python run.py
+	
 3.	Acesse o sistema no navegador:
 http://localhost:5000
 
