@@ -1,6 +1,6 @@
-# 📌 Projeto Final — Mural de Recados
+# 📌  Mural de Recados
 
-Disciplina: Web II
+### Disciplina: Web II
 Curso: Técnico Integrado em Informática – IFCE
 
 ## 📖 1. Descrição Geral
