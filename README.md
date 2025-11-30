@@ -41,13 +41,11 @@ Remove um recado específico da lista, atualizando imediatamente as informaçõe
 /projeto_final
 │
 ├── /controllers
-│   └── views.py
-│       
+│   └── views.py     
 │
 ├── /models
 │   └── modelo.py
 │    
-│
 ├── /templates
 │   ├── index.html             
 │   └── outras_paginas.html    
@@ -60,7 +58,6 @@ Remove um recado específico da lista, atualizando imediatamente as informaçõe
 │   │   └── script.js
 │   │
 │   └── /img
-│       └── imagens usadas no projeto
 │
 ├── README.md
 └── run.py
