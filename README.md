@@ -1,18 +1,18 @@
-📌 Projeto Final — Sistema de Recados
+## 📌 Projeto Final — Sistema de Recados
 
 Disciplina: Web II
 Curso: Técnico Integrado em Informática – IFCE
 
 ⸻
 
-📖 1. Descrição Geral
+### 📖 1. Descrição Geral
 
 O Sistema de Recados é uma aplicação web que permite ao usuário criar, buscar, visualizar e excluir recados, cada um contendo um título e uma mensagem.
 O projeto foi desenvolvido para praticar organização de pastas no padrão MVC simples, manipulação de dados e criação de páginas web interativas.
 
 ⸻
 
-✨ 2. Funcionalidades
+### ✨ 2. Funcionalidades
 
 ✔ Adicionar recado com título
 
@@ -36,7 +36,8 @@ Remove um recado específico da lista, atualizando imediatamente as informaçõe
 
 ⸻
 
-🗂 3. Estrutura de Pastas
+### 🗂 3. Estrutura de Pastas
+
 /projeto_final
 │
 ├── /controllers
