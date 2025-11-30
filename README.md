@@ -42,16 +42,15 @@ Remove um recado específico da lista, atualizando imediatamente as informaçõe
 │
 ├── /controllers
 │   └── views.py
-│       - Controla rotas e integra as páginas com o model.
+│       
 │
 ├── /models
 │   └── modelo.py
-│       - Armazena os recados e implementa métodos:
-│         adicionar, buscar, listar, excluir.
+│    
 │
 ├── /templates
-│   ├── index.html             # Página principal (formulário para título e recado)
-│   └── outras_paginas.html    # Demais páginas do sistema
+│   ├── index.html             
+│   └── outras_paginas.html    
 │
 ├── /static
 │   ├── /css
