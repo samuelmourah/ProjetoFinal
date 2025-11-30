@@ -13,6 +13,7 @@ O projeto foi desenvolvido para praticar organização de pastas no padrão MVC 
 ✔ Adicionar recado com título
 
 O usuário pode cadastrar um recado informando:
+
 	•	Título do recado
 	•	Mensagem ou descrição do recado
 
@@ -36,6 +37,7 @@ Remove um recado específico da lista, atualizando imediatamente as informaçõe
 ## ⚙ 4. Como Rodar o Projeto
 
 Requisitos
+
 	•	Python 3 instalado
 	
 Passo a passo
@@ -52,6 +54,7 @@ http://localhost:5000
 ### 📌 Model (modelo.py)
 
 Responsável por gerenciar os dados:
+
 	•	Estrutura para armazenar título + mensagem
 	•	Métodos:
 	•	adicionar_recado(titulo, mensagem)
@@ -72,11 +75,13 @@ Responsável por gerenciar os dados:
 ## 🎨 6. Layout e Design
 
 O style.css organiza:
+
 	•	Cores, botões, tipografia
 	•	Espaçamentos e alinhamentos
 	•	Responsividade básica
 
 O script.js pode conter:
+
 	•	Confirmações de exclusão
 	•	Alertas
 	•	Ajustes de interação
