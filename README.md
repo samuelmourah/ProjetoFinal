@@ -37,28 +37,4 @@ Remove um recado específico da lista, atualizando imediatamente as informaçõe
 ⸻
 
 ## 🗂 3. Estrutura de Pastas
-'''
-/projeto_final
-│
-├── /controllers
-│   └── views.py     
-│
-├── /models
-│   └── modelo.py
-│    
-├── /templates
-│   ├── index.html             
-│   └── outras_paginas.html    
-│
-├── /static
-│   ├── /css
-│   │   └── style.css
-│   │
-│   ├── /js
-│   │   └── script.js
-│   │
-│   └── /img
-│
-├── README.md
-└── run.py
-'''
+![Image](https://github.com/user-attachments/assets/721fad1e-62de-4821-8653-81eeb6c839fe)
