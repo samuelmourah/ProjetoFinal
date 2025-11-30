@@ -37,7 +37,7 @@ Remove um recado específico da lista, atualizando imediatamente as informaçõe
 ⸻
 
 ## 🗂 3. Estrutura de Pastas
-...
+'''
 /projeto_final
 │
 ├── /controllers
@@ -65,4 +65,4 @@ Remove um recado específico da lista, atualizando imediatamente as informaçõe
 │
 ├── README.md
 └── run.py
-...
+'''
