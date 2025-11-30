@@ -1,12 +1,11 @@
 # 📌  Mural de Recados
-
-### Disciplina: Web II
+ Disciplina: Web II
 Curso: Técnico Integrado em Informática – IFCE
 
 ## 📖 1. Descrição Geral
 
-O Sistema de Recados é uma aplicação web que permite ao usuário criar, buscar, visualizar e excluir recados, cada um contendo um título e uma mensagem.
-O projeto foi desenvolvido para praticar organização de pastas no padrão MVC simples, manipulação de dados e criação de páginas web interativas.
+### O Sistema de Recados é uma aplicação web que permite ao usuário criar, buscar, visualizar e excluir recados, cada um contendo um título e uma mensagem.
+### O projeto foi desenvolvido para praticar organização de pastas no padrão MVC simples, manipulação de dados e criação de páginas web interativas.
 
 ## ✨ 2. Funcionalidades
 
